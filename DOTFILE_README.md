@@ -38,6 +38,7 @@ dotfile-cfg config --local status.showUntrackedFiles no
 ## Windows
 1. Terminal
 1. Docker
+1. git
 1. WSL
 1. VS Code
    - VIM
