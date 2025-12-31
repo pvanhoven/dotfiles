@@ -109,7 +109,7 @@ alias diff="git diff"
 alias sts="git status"
 
 # dotfile config, see DOTFILE_README.md in https://github.com/pvanhoven/dotfiles
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dotfile-cfg='/usr/bin/git --git-dir=$HOME/.dotfile-cfg/ --work-tree=$HOME'
 
 setopt no_share_history
 

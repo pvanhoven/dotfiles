@@ -32,3 +32,22 @@ dotfile-cfg checkout main
 # Hide untracked `$HOME` files for this repo:
 dotfile-cfg config --local status.showUntrackedFiles no
 ```
+
+# Environment Setup
+
+## Windows
+1. Terminal
+1. Docker
+1. WSL
+1. VS Code
+   - VIM
+   - Prettier
+   - ESLint
+   - YAML
+   - WSL
+   - EditorConfig
+
+## WSL/Ubuntu
+1. dotfiles via instructions above
+1. zsh
+1. oh-my-zsh
