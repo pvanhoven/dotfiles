@@ -17,7 +17,6 @@ Add/commit the dotfiles you want to track (examples):
 ```sh
 dotfile-cfg add .bashrc .vimrc .gitdotfile-cfg
 dotfile-cfg commit -m "Track dotfiles"
-dotfile-cfg remote add origin <git-repo-url>
 dotfile-cfg push -u origin main
 ```
 
@@ -27,6 +26,9 @@ dotfile-cfg push -u origin main
 git clone --bare <git-repo-url> $HOME/.dotfile-cfg
 alias dotfile-cfg='/usr/bin/git --git-dir=$HOME/.dotfile-cfg/ --work-tree=$HOME'
 
+# Checkout files from main as bare repo won't do this
+dotfile-cfg checkout main
+
 # Hide untracked `$HOME` files for this repo:
-config config --local status.showUntrackedFiles no
+dotfile-cfg config --local status.showUntrackedFiles no
 ```
