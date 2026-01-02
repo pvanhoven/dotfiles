@@ -52,3 +52,5 @@ dotfile-cfg config --local status.showUntrackedFiles no
 1. dotfiles via instructions above
 1. zsh
 1. oh-my-zsh
+1. [dotnet sdk]("https://learn.microsoft.com/en-us/dotnet/core/install/linux-ubuntu-install?tabs=dotnet10&pivots=os-linux-ubuntu-2404")
+1. [aws cli]("https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html")
